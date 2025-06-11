@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.form-section input,
+.form-section select,
+.form-section button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.tables h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.order-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.order-list li {
+  background: #e3f2fd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.order-list li button {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: #f44336;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}

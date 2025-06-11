@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Order System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Restaurant Order System</h2>
+    <div class="form-section">
+      <input type="number" id="price" placeholder="Choose Price" />
+      
+      <select id="dish">
+        <option value="">Choose Dish</option>
+        <option value="Masala Dosa">Masala Dosa</option>
+        <option value="Paneer Butter Masala">Paneer Butter Masala</option>
+        <option value="Veg Biryani">Veg Biryani</option>
+        <option value="Chicken Curry">Chicken Curry</option>
+        <option value="Gobi Manchurian">Gobi Manchurian</option>
+        <option value="Fried Rice">Fried Rice</option>
+      </select>
+
+      <select id="table">
+        <option value="1">Table 1</option>
+        <option value="2">Table 2</option>
+        <option value="3">Table 3</option>
+      </select>
+      <button onclick="addToBill()">Add to bill</button>
+    </div>
+
+    <h3>Orders</h3>
+    <div class="tables">
+      <div id="table-1">
+        <h4>Table 1</h4>
+        <ul class="order-list" id="order-list-1"></ul>
+      </div>
+      <div id="table-2">
+        <h4>Table 2</h4>
+        <ul class="order-list" id="order-list-2"></ul>
+      </div>
+      <div id="table-3">
+        <h4>Table 3</h4>
+        <ul class="order-list" id="order-list-3"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
